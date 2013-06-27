@@ -1,0 +1,728 @@
+/*************************** CSS CORE ***************************/
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl,
+dt, dd, ol, ul, li, table, tr, td, form, object, embed,
+article, aside, canvas, command, details, figcaption,
+figure
+{      
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html
+{
+    font: 81.25% arial, helvetica, sans-serif;
+    background: #fff;
+    color: #333;
+    line-height: 1;
+    direction: ltr;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #222;
+    font-size: 1.54em;
+    font-weight: normal;
+    line-height: 24px;
+    margin: 0 0 .46em;
+}
+
+p {
+    line-height: 17px;
+    margin: 0 0 1em;
+}
+
+html, body
+{
+    position: absolute;
+    height: 100%;
+    min-width: 100%;
+}
+
+.site
+{
+    position: relative;
+    min-height: 100%;
+}
+.vote-header
+{
+    height: 71px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.content 
+{
+    margin: 0 150px auto;
+    width: auto;
+    max-width: 1500px;
+    min-width: 780px;
+}
+
+.header .a-logo 
+{
+    margin: 0px 0 0 -1px;
+    float: left;
+    width: 100px;
+}
+
+.main 
+{
+    padding-top: 23px;
+    padding-bottom: 75px;
+}
+
+.vote-footer1
+{
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+.vote-footer2
+{
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+}
+
+.footer 
+{
+    padding-top: 7px;
+    font-size: .85em;
+    white-space: nowrap;
+    line-height: 0;
+
+}
+
+.special_erreur
+{
+    margin: 0px auto;
+    width: 500px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px outset red;
+}
+
+.special_marche
+{
+    margin: 0px auto;
+    width: 500px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px outset lightblue;
+}
+
+.recherche
+{
+    position: absolute;
+    right: 155px;
+    top: 44px;
+}
+
+/*************************** CSS ACCUEIL ***************************/
+
+.header .inscription
+{
+    margin: 28px 0 0;
+    float: right;
+    font-weight: bold;
+}
+
+
+.header .inscription-logo 
+{
+    float: right;
+}
+
+.header .logo-inscription
+{
+    margin: 15px 0 0 10px;
+    float: right;
+    width: 100px;
+}
+
+.header .inscripton-text
+{
+    float: left;
+    margin: 25px 0 0 10px;
+}
+
+.connexion
+{
+    width: 335px;
+    float: right;
+}
+
+.box-connexion
+{
+    margin: 12px 0 0;
+    padding: 20px 25px 15px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+}
+
+.box-connexion h2 
+{
+    font-size: 16px;
+    line-height: 16px;
+    height: 16px;
+    margin: 0 0 1.2em;
+    position: relative;
+
+}
+
+.box-connexion label
+{
+    display: block;
+    margin: 0 0 1.5em;
+}
+
+.box-connexion h2 strong 
+{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    height: 19px;
+    width: 52px;
+}
+
+.box-connexion input[type=text],
+.box-connexion input[type=password],
+.box-connexion input[type=email]
+{
+    width: 100%;
+    height: 32px;
+    font-size: 15px;
+}
+
+.box-connexion .email-label,
+.box-connexion .password-label 
+{
+    font-weight: bold;
+    margin: 0 0 .5em;
+    display: block;
+}
+
+.box-connexion input[type=submit]
+{
+    margin: 0 15em 1.2em 0;
+    height: 32px;
+    font-size: 13px;
+    background: green;
+}
+
+.production-info 
+{
+    margin: 0 385px 0 0;
+}
+
+.production-info h3 
+{
+    font-size: 1.23em;
+    font-weight: normal;
+}
+
+.production-info a:visited 
+{
+    color: #61c;
+}
+
+.production-info .g-button:visited 
+{
+    color: #666;
+}
+
+.production-info 
+{
+    margin: 0 0 1.5em;
+}
+
+.production-info h1 
+{
+    color: #dd4b39;
+    font-size: 25px;
+    margin: 0 !important;
+}
+
+.production-info h2
+{
+    font-size: 16px;
+    margin: .4em 0 0;
+}
+
+.liste 
+{
+    overflow: hidden;
+    margin: 2em 0 0;
+}
+
+.liste li
+{
+    margin: 3px 0 2em;
+    float: left;
+}
+
+.liste img 
+{
+    float: left;
+    margin: -3px 0 0;
+    width: 175px;
+}
+
+.liste p
+{
+    margin: 0 0 0 68px;
+}
+
+.liste .title 
+{
+    font-size: 16px;
+    margin-bottom: .3em;
+}
+
+.vote ul.agenda-links 
+{
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.vote ul.agenda-links li
+{
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.erreurmsg 
+{
+    margin: .5em 0 0;
+    display: block;
+    color: #dd4b39;
+    line-height: 17px;
+}
+
+/*************************** CSS INSCRIPTION ***************************/
+
+table
+{
+    margin: 0px auto;
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.inscription-main 
+{
+    padding-top: 23px;
+    padding-bottom: 30px;
+}
+
+.formulaire
+{
+    margin: 10px auto;
+    padding-top: 10px;
+    text-align:  center;
+    font-size: 14px;
+    border: 2px outset #26A292;
+}
+
+.formulaire input[type=text],
+.formulaire input[type=password],
+.formulaire input[type=date],
+.formulaire input[type=time],
+.formulaire input[type=email]
+{
+    width: 100%;
+    height: 32px;
+    font-size: 15px;
+    margin: 10px 0 auto;
+}
+
+.formulaire input[type=submit]
+{
+    margin: 10px 15em 18px 0;
+    height: 32px;
+    font-size: 13px;
+    background: #26A292;
+}
+
+.formulaire input[type=checkbox]
+{
+    margin: 10px 0 auto;
+}
+
+.formulaire h2
+{
+    color: #dd4b39;
+    font-size: 18px;
+}
+
+/******************** HOME ********************/
+
+.userbox
+{
+    background:#F9F9FA;
+    border-color:#26A292;
+    border:1px solid #e9e9e9;
+    border-bottom-color:#f5f5f5;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);
+}
+
+.userbox
+{
+    float:right;
+    padding:8px 5px 7px 10px;
+    font-size:12px;
+    border-top:none;
+    height: 18px;
+}
+
+.userbox .name
+{
+    display: inline;
+    padding-right: 6px;
+    font-weight: bold;
+}
+
+.userbox .name a
+{
+    color:#000;
+}
+
+.userbox .usernav a:hover
+{
+    text-decoration: underline;
+}
+
+.userbox .usernav a:link, .userbox .usernav a:visited
+{
+    color: #00BBC1;
+}
+
+ul.usernav
+{
+    display:inline;
+    margin:0;
+    font-weight:bold;
+}
+
+ul.usernav li
+{
+    list-style-type:none;
+    display:inline;
+    margin:0;
+    padding:0 8px 0 9px;
+    background:url('../images/nav-rule.png') 0 50% no-repeat;
+}
+ul.usernav li a
+{
+    text-shadow:#fff 1px 1px 0;
+    text-decoration:  none;
+}
+
+ul.tableau
+{
+    margin:7px 0 -11px -10px;
+    width:100%;
+    padding:0 10px;
+    overflow:hidden;
+}
+
+ul.tableau li
+{
+    list-style-type:none;
+    display:inline;
+}
+
+ul.tableau li a
+{
+    display:inline;
+    float:left;
+    font-size:11px;
+    width: 250px;
+    font-weight:bold;
+    color:#666;
+    text-decoration:none;
+    border-right: 1px solid #CDCDCD;
+}
+
+/************** profil *************/
+
+.header-main
+{
+    margin : 15px 0 auto;
+    margin-bottom: 50px;
+}
+.header-main strong h1
+{
+    color: #302A27;
+    font-size: 25px;
+}
+
+ul.profil
+{
+    float: right;
+    margin: 10px 5px auto;
+    position: relative;
+    top: -25px;
+    display: block;
+    list-style-type: none;
+}
+
+ul.profil li
+{
+    float: left;
+    padding: 0 5px;
+}
+
+.texteProfil
+{
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    position: relative;
+    top : 5px;
+}
+
+.bouton input[type=button]
+{
+    height: 25px;
+    font-size: 13px;
+    background: #26A292;
+    border: ridge 2px 26A292;
+}
+
+hr
+{
+    background-color:#CACACA;
+    color: #CACACA;
+    height: 1px;
+    border: 0;
+}
+
+.presentation
+{
+    margin: 10px 0 auto;
+    font-family: Arial-black;
+}
+
+.info 
+{
+    margin: 20px 0 50px -200px;
+    font-family: Arial-black;
+}
+
+.info table
+{
+    font-size: 18px;
+}
+
+.info td.caract
+{
+    color: #A64A2E;
+}
+
+.info td
+{
+    width: 100px;
+}
+
+ul.nbContact
+{
+    float: right;
+    margin: 0 175px 0 0;
+    top: -55px;
+    display: block;
+    list-style-type: none;
+    position: relative;
+}
+
+ul.nbContact li
+{
+    float: left;
+    padding: 0 5px;
+}
+
+li.chiffre
+{
+    margin: -40px 50px 10px 0;
+    font-size: 50px;
+    position: absolute;
+}
+
+li.chiffre a
+{
+    text-decoration: none;
+    font-family: Arial;
+}
+
+li.chiffre a:link,li.chiffre a:visited
+{
+    color: #AB7924;
+}
+
+li.chiffre a:hover
+{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+li.texteInfo
+{
+    margin: -20px 5px 0 45px;
+    position: relative;
+    color: #AB7924;
+    font-size: 16px;
+}
+
+.listeEvenementProfil
+{
+    margin : 10px 50px auto;
+    font-size: 15px;
+    padding: 10px 0;
+    width: 800px;
+}
+
+.texteEvenement
+{
+    font-size: 17px;
+    margin: 10px 0px auto;
+    text-align: center;
+}
+
+li.dateEvenement
+{
+    margin : 0 450px 0 0;
+    width: 300px;
+}
+
+.partie1
+{
+    float : left;
+    margin: 20px 0 10px 0;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.partie2
+{
+    float : right;
+    width: 500px;
+    border-left: 1px black solid;
+    margin: 10px -220px 10px 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.partie1 li.titreEvenement
+{
+    margin: 0 0 5px 130px;
+    padding: 4px 0 ;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 15px;
+    display : list-item;
+    text-align: left;
+}
+
+.partie2 li.titreEvenement
+{
+    margin: 0 0 5px 110px;
+    padding: 4px 0 ;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding-left: 15px;
+    display : list-item;
+    text-align: left;
+}
+
+.partie1 li.attributEvenement
+{
+    margin: -7px 0 5px 160px;
+    padding: 4px 0 ;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    display : list-item;
+    text-align: left;
+}
+
+.partie2 li.attributEvenement
+{
+    margin: -7px 0 5px 160px;
+    padding: 4px 0 ;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    display : list-item;
+    text-align: left;
+}
+
+.croix
+{
+    margin : 0 3px auto;
+}
+
+/**************** COMPTE ******************/
+
+.ajoutVote
+{
+    padding-top: 23px;
+    padding-bottom: 30px;
+}
+
+/*******************************/
+/**         Vote.PH  **/
+/*******************************/
+
+.listeVote
+{
+    margin: 10px 0 auto;
+}
+
+table.listeVote
+{
+    font-size: 19px;
+    margin: 20px 0 50px -200px;
+    font-family: Arial-black;
+}
+
+.listeVote th
+{
+    color: #A64A2E;
+}
+
+.listeVote td
+{
+    width: 200px;
+    height: 27px;
+    border: ridge 2px #CC6C2A;
+}
+
+.listeVote a
+{
+    text-decoration: none;
+    color:#000;
+}
+
+.listeVote a:visited, .listeVote a:link
+{
+    color: #00BBC1;
+}
+
+.listeVote a:hover
+{
+    text-decoration: underline;
+}
